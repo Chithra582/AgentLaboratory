@@ -1,0 +1,19 @@
+name: "latex-document-compiler"
+description: "Assembles, validates, and compiles multi-section LaTeX manuscripts and generated PDF artifacts."
+input_schema:
+  type: object
+  properties:
+    main_tex_file:
+      type: string
+      description: "Path to the primary LaTeX document file (e.g., main.tex)."
+    compiler:
+      type: string
+      description: "LaTeX compilation engine to invoke."
+      enum: ["pdflatex", "xelatex", "lualatex"]
+      default: "pdflatex"
+    bibtex_run:
+      type: boolean
+      description: "Whether to execute bibtex for citation linking."
+      default: true
+  required:
+    - main_tex_file

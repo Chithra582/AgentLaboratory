@@ -1,0 +1,22 @@
+spec_version: "0.1.0"
+name: "agent-laboratory"
+version: "1.0.0"
+description: "End-to-end autonomous research assistant conducting literature review, experimentation, and publication-ready paper generation."
+author: "Samuel Schmidgall & OpenGAP Contributors"
+license: "MIT"
+metadata:
+  domain: "Data & Analytics / Autonomous Scientific Research & Discovery"
+  category: "Data & Analytics"
+  framework: "Agent Laboratory Multi-Agent Research System & PyTorch"
+  language: "Python, LaTeX"
+skills:
+  - "literature-review-synthesis"
+  - "mle-experimentation-solver"
+  - "latex-manuscript-generation"
+  - "agentrxiv-collaborative-sharing"
+tools:
+  - "arxiv-paper-searcher"
+  - "mle-code-runner"
+  - "latex-document-compiler"
+  - "experimental-plot-visualizer"
+  - "research-notes-ledger"
